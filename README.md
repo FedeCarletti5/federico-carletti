@@ -16,13 +16,16 @@ Il sito non richiede un account ai visitatori, non dipende da ChatGPT o Sites e 
 - `federico-carletti-logo.png`: logo FC con figura in movimento, blu e turchese.
 - `federico-carletti-ritratto.jpg`: fotografia autentica fornita da Federico per l’apertura.
 - `favicon.svg` e `apple-touch-icon.png`: versioni del logo per schede e schermata Home.
+- `assets/flags/it.svg` e `assets/flags/gb.svg`: bandiere del menu lingue, servite localmente; licenza in `assets/flags/LICENSE`.
 - `.nojekyll`: indica a GitHub Pages di pubblicare i file così come sono.
 
 Per una modifica, aggiorna il file corrispondente e salvalo nel ramo `main` di GitHub. Pages pubblica automaticamente gli aggiornamenti. Il menu rimane visibile durante lo scorrimento, anche su smartphone. `navigation.js` assegna `aria-current="location"` al collegamento della sezione in lettura, comprese le FAQ; non cambia URL o focus. I collegamenti e le FAQ native `details` / `summary` funzionano anche senza JavaScript.
 
 ## Italiano e inglese
 
-Il menu “Lingua / Language”, in alto a destra, collega le due pagine. Su smartphone mostra la sigla IT o EN; aprendolo si leggono i nomi completi Italiano ed English. La lingua corrente è contrassegnata da una spunta. Il menu nativo e i suoi collegamenti funzionano anche senza JavaScript.
+Il menu “Lingua / Language”, in alto a destra, collega le due pagine. Il pulsante mostra la bandiera della lingua corrente; su smartphone mantiene anche la sigla IT o EN. Nel menu, le bandiere affiancano i nomi completi Italiano ed English e la lingua corrente ha una spunta. I nomi restano sempre presenti: le icone sono decorative e non vengono annunciate due volte dai lettori di schermo. Il menu nativo e i suoi collegamenti funzionano anche senza JavaScript.
+
+Le due bandiere provengono da [flag-icons](https://github.com/lipis/flag-icons) di Panayiotis Lipiridis, con licenza MIT conservata insieme agli SVG. I file sono inclusi nel sito, senza caricare librerie o immagini da server esterni.
 
 La pagina principale `/federico-carletti/` resta italiana; `/federico-carletti/en.html` apre direttamente la versione inglese. Non vengono usati cookie, memoria locale o riconoscimento della lingua del browser per cambiare la lingua in automatico.
 
