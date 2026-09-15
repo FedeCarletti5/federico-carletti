@@ -61,7 +61,7 @@ Poi apri `http://127.0.0.1:4173/`. I file CSS e l’icona usano percorsi relativ
 
 Il ritratto `federico-carletti-ritratto.jpg` è la fotografia fornita da Federico il 9 settembre 2026. Il file originale è conservato senza ritocchi. In apertura viene mostrato in un formato circolare compatto: massimo 340 px su desktop e 240 px su smartphone.
 
-Per sostituirlo, aggiorna il file oppure il percorso `src` di `img.portrait-photo` in `index.html`. Mantieni `width`, `height` e testo alternativo coerenti con la nuova fotografia. Le dimensioni di visualizzazione si regolano con `.portrait-slot` in `styles.css`.
+Per sostituirlo, aggiorna il file oppure il percorso `src` di `img.portrait-photo` in `index.html` e `en.html`. Mantieni `width`, `height` e testo alternativo coerenti con la nuova fotografia. Le dimensioni di visualizzazione si regolano con `.portrait-slot` in `styles.css`.
 
 ## Contenuti e dati ancora da integrare
 
@@ -69,9 +69,9 @@ Per sostituirlo, aggiorna il file oppure il percorso `src` di `img.portrait-phot
 - Il sito distingue la laurea in Scienze Motorie dal percorso in corso in Fisioterapia. Non offre prestazioni fisioterapiche o riabilitative.
 - Federico ha confermato di operare come libero professionista con partita IVA `04991390230`, riportata nel piè di pagina di entrambe le lingue.
 - Le indicazioni definitive su abbigliamento e materiale restano da concordare al primo contatto, come confermato da Federico.
-- I testi sull’approccio sono una bozza editoriale da rileggere con Federico.
+- Revisione editoriale italiana e inglese del 15 settembre 2026: corretti grammatica e scorrevolezza; il percorso di Fisioterapia fa riferimento alla conoscenza del corpo umano e del movimento.
 - I pulsanti aprono WhatsApp con un testo che il visitatore sceglie se inviare. Non creano prenotazioni automatiche.
-- I pacchetti di coaching prevedono pagamento anticipato. Non sono indicate modalità di pagamento, inclusione dell’accesso alle palestre o disponibilità non confermate.
+- I pacchetti di coaching prevedono il pagamento anticipato. Non sono indicate modalità di pagamento, inclusione dell’accesso alle palestre o disponibilità non confermate.
 
 Fonti degli indirizzi: https://www.olona1894.it/ e https://www.milagofitness.it/.
 
