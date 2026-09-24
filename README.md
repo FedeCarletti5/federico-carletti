@@ -2,7 +2,7 @@
 
 Sito professionale statico in italiano e inglese: personal training a Milano e Buccinasco e coaching online. L’indirizzo principale apre sempre la versione italiana.
 
-**Hosting:** GitHub Pages, sul repository `ReCarloV/federico-carletti`.
+**Hosting:** GitHub Pages, sul repository `FedeCarletti5/federico-carletti`.
 
 Il sito non richiede un account ai visitatori, non dipende da ChatGPT o Sites e non ha un server applicativo. Non servono npm, React, un database, chiavi API o un processo di compilazione. Non carica font, mappe o script di terze parti: i collegamenti ai servizi esterni si aprono soltanto quando il visitatore li seleziona.
 
@@ -41,7 +41,7 @@ Logo generato con lo strumento imagegen integrato: monogramma FC con una figura 
 
 Nel repository: **Settings → Pages → Deploy from a branch → main → /(root) → Save**.
 
-Indirizzo del sito: `https://recarlov.github.io/federico-carletti/`.
+Indirizzo del sito: `https://fedecarletti5.github.io/federico-carletti/`.
 
 Il repository deve essere pubblico per usare Pages con GitHub Free. I file contengono esclusivamente i contenuti professionali e i recapiti destinati al sito pubblico.
 
@@ -77,7 +77,7 @@ Fonti degli indirizzi: https://www.olona1894.it/ e https://www.milagofitness.it/
 
 ## Google Search Console
 
-La proprietà usa il prefisso URL `https://recarlov.github.io/federico-carletti/`, che comprende entrambe le lingue e limita la gestione a questo sito. La sitemap da inviare in Search Console è `https://recarlov.github.io/federico-carletti/sitemap.xml`.
+Dopo il cambio di username GitHub del 24 settembre 2026, aggiungere e verificare in Search Console la proprietà con prefisso URL `https://fedecarletti5.github.io/federico-carletti/`, che comprende entrambe le lingue e limita la gestione a questo sito. La proprietà precedente non copre il nuovo indirizzo. La sitemap da inviare è `https://fedecarletti5.github.io/federico-carletti/sitemap.xml`. La configurazione della nuova proprietà va verificata in Search Console.
 
 Mantieni il meta tag `google-site-verification` nella home italiana: serve a confermare la proprietà del sito anche nei controlli successivi di Google. Non è uno script di tracciamento. Quando aggiungi nuove pagine, aggiorna la sitemap con gli URL canonici e le corrispondenti lingue. Non inserire nella sitemap le ancore delle sezioni o il duplicato `/index.html` della home.
 
